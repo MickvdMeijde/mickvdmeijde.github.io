@@ -9,10 +9,109 @@
   font-size:12px;
   color:#999;
 }
+
 main {
 	min-height: 800px;
 }
 
+/*main page cards*/
+.b-main-page__line {
+ max-width:1280px;
+ margin:0 auto;
+ padding:0 23px;
+ position:relative
+}
+.b-main-page__full-line {
+ width:100%;
+ overflow:hidden
+}
+.b-main-page__full-line_limit-height {
+ height:100%;
+ max-height:440px
+}
+.b-main-page__full-line_limit-height img {
+ max-width:100%;
+ width:100%;
+ height:auto;
+ will-change:transform;
+ transition:-webkit-transform .15s linear;
+ transition:transform .15s linear;
+ transition:transform .15s linear,-webkit-transform .15s linear
+}
+.b-main-page__full-line_inner {
+ height:100%;
+ max-height:380px;
+ position:relative
+}
+.b-main-page__full-line_inner:before {
+ content:'';
+ position:absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ background:rgba(0,0,0,.67);
+ z-index:1
+}
+.b-main-page__full-line_inner img {
+ position:relative;
+ top:0;
+ left:50%;
+ -webkit-transform:translate3d(-50%,0,0);
+ transform:translate3d(-50%,0,0)
+}
+
+.b-categories .b-category-card,.b-categories .b-slider__tile {
+ display:-webkit-flex;
+ display:-ms-flexbox;
+ -webkit-flex-direction:column;
+ max-height:300px
+}
+
+ }
+ .b-slider-menu-cocount {
+  height:65px;
+  overflow:hidden;
+  margin:0 -23px!important;
+  position:relative
+ }
+ .b-slider-menu-cocount:before {
+  content:'';
+  display:block;
+  position:absolute;
+  top:0;
+  right:0;
+  width:15%;
+  height:100%;
+  background:linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.9) 60%,#fff 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1 );
+  z-index:2
+ }
+ .b-slider-menu {
+  line-height:60px;
+  background:#fff;
+  overflow-y:hidden;
+  overflow-x:auto;
+  height:80px;
+  white-space:nowrap;
+  display:block
+ }
+ .b-slider-menu .b-link {
+  margin:0 20px;
+  color:#000;
+  outline:0
+ }
+ 
+ .b-slider-menu .b-link:first-child {
+  margin-left:0
+ }
+
+ .b-tile-new .b-header-img img {
+ width:100%;
+ height:auto
+}
+
+/*back to top and footer*/
 a.backtotop {
 -moz-transition:background-color .2s ease-in;
 -o-transition:background-color .2s ease-in;
@@ -148,6 +247,7 @@ container {
  padding-right:0
 }
 
+/*colour and padding*/
 .grey {
 	color:#999;
 }
