@@ -206,6 +206,7 @@ a.backtotop:hover {
 .card-footer .copy p a:hover {
  color:#fff
 }
+
 @media (max-width:480px) {
  .card-footer .copy p {
   text-align:center
@@ -247,7 +248,7 @@ container {
  padding-right:0
 }
 
-/*colour, image and padding*/
+/*colour, image, link, padding and font import*/
 .grey {
 	color:#999;
 }
@@ -263,4 +264,12 @@ container {
 img {
     max-width: 100%;
     height: auto;
+}
+
+/*zilla slab font*/
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:700');
+
+#mozillian {
+  font-family: 'Zilla Slab', serif;
+  font-size: 70px;
 }
