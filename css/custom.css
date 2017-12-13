@@ -269,6 +269,10 @@ img {
     font-size: 70px;
 }
 
+.fontsize30{
+    font-size: 3 0px;
+}
+
 /*zilla slab font*/
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab:700');
 
