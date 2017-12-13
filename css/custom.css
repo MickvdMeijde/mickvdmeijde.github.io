@@ -265,12 +265,15 @@ img {
     max-width: 100%;
     height: auto;
 }
-.fontsize70{
-    font-size: 70px;
+.fontsize80{
+    font-size: 80px;
 }
 
-.fontsize30{
-    font-size: 3 0px;
+.fontsize40{
+    font-size: 40px;
+}
+.social{
+  margin-right: 5px;
 }
 
 /*zilla slab font*/
