@@ -163,7 +163,7 @@
 				</section>
 			</container>
 			<div class="copy">
-				<p> &copy; 2017-<?php echo date("Y");?> Mick v. d. Meijde </p>
+				&copy; 2017-<?php echo date("Y");?> Mick v. d. Meijde
 			</div>
 		</footer>
 				</div>
