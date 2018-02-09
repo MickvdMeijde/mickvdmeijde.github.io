@@ -13,10 +13,11 @@
 			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
 			  crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="js/line.js"></script>
 		<script src="https://unpkg.com/popper.js"></script>
 	  	<meta name="author" content="Mick v.d. Meijde">
-	  	<meta name="description" content="Portfolio MickvdMeijde">
-	  	<meta name="keywords" content="Mick, Meijde, DaVinci, ITC, html, css, website, design">
+	  	<meta name="description" content="Portfolio">
+	  	<meta name="keywords" content="Mick vand er Meijde, DaVinci, ITC, html, css, website, design">
 	  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
@@ -69,10 +70,13 @@
 			<img src="images/web.jpg" alt="web design">
 			<img src="images/map.png" alt="web development">
  			<h1 id="summary"> Welcome</h1>
- 			<p> Welcome to my digital portfolio. here you can find my studies, info about me, my working experience as well as my CV.</p>
+ 			<p>
+			  <span id="Write"></span>
+			  <span id="WriteEffect" style="margin-left:-10px;"></span>
+			</p>
 
  			<p id="badges"> <strong> Knowledge and skills: </strong> <br />I have experience in these code languages: HTML, CSS<br>
- 			I have some experience in the following programming languages: JavaScript, node.js, BASIC and Python. </p>
+ 			I have some experience in the following programming languages: java script, node.js, BASIC and Python. </p>
 
  			<p> I have achieved the following certificates/open badges: </p>
 
@@ -153,9 +157,9 @@
 							<ul class="social-links list-inline">
 								<li>
 									<a href="https://github.com/MickvdMeijde" target="_blank">
-										<i class="grey social fa fa-github fa-2x padleft"></i>
-									</a>
+										<i class="grey fa fa-github fa-2x padleft"></i>
 									<a id="mozillian" class="grey social fontsize40" title="Mozillians" href="https://mozillians.org/en-US/u/MickvdMeijde/" target="_blank">m</a>
+									</a>
 								</li>
 							</ul>
 						</div>
@@ -163,22 +167,10 @@
 				</section>
 			</container>
 			<div class="copy">
-				&copy; Mick v. d. Meijde
+				<p> &copy; 2017-2018 Mick v. d. Meijde </p>
 			</div>
 		</footer>
 				</div>
 			</div>
 	</body>
-	<script>
-	    (function (d,f,a) {
-	        // Your settings here
-	        var o = {maxLinks: 4, searchElements: ['div', 'h'], linkClass: 'link-to-mdn', extraLinks: {'keywordx': 'http://example.com'}};
-
-	        var s=d.createElement("script");s.type="text/javascript";if(s.f)
-	        {s.a=function(){if(s.f=="loaded"||s.f=="complete")
-	        {s.a=null;PromoteMDN(o)}}}else{s.onload=function()
-	        {PromoteMDN(o)}}s.src="js/promote-mdn.js";
-	        d.getElementsByTagName("head")[0].appendChild(s)
-	    })(document,'readyState','onreadystatechange');
-	</script>
 </html>
